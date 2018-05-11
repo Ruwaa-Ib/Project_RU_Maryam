@@ -9,7 +9,8 @@ NLS_list = ['PKKKRKV',          #DOI: 10.1002/iub.194
             'GKISKHWTGI',
             'RQARRNRRRRWR',
             'GRKKRRQRRRAP',
-            'MPKTRRRPRRSQRKRPPT'
+            'MPKTRRRPRRSQRKRPPT',
+            'KNQKQGKGKTCKKGKK' # new https://doi.org/10.1371/journal.pone.0038740
             ]
 
 
