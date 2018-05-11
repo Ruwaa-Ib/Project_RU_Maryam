@@ -16,5 +16,5 @@ NLS_list = ['PKKKRKV',          #DOI: 10.1002/iub.194
             'TAKRS.{0,35}KKKGSKTS']
 
 
-for element in NLS_list:
-    print(element)
+##for element in NLS_list:
+##    print(element)
