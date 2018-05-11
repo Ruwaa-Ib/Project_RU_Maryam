@@ -7,8 +7,12 @@ class Fasta_File:
         self.EntryName = 'No entry name in the given file'
         self.ProtName = 'No protein name in the given file'
         self.organism = 'No organism name in the given file'
-        self.seq = []
+        self.sequence = []
         self.parse(file)
+        self.nls = ''
+        self.nls_score = 0
+        self.folder = ''
+        self.trueNLS = ''
 
     def parse(self,file):
         seq = []
