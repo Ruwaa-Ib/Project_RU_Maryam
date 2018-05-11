@@ -48,9 +48,9 @@ class Fasta_File:
         return(self.sequence)
 
 #for testing    
-filename = input('Enter The Name of Your Fasta File with Full Directory: ')
-file = open(filename).readlines()
-myFile=Fasta_File(file)
-print(myFile, myFile.AccNum)
+##filename = input('Enter The Name of Your Fasta File with Full Directory: ')
+##file = open(filename).readlines()
+##myFile=Fasta_File(file)
+##print(myFile, myFile.AccNum)
 
         
