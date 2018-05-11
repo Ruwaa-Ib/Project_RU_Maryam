@@ -17,10 +17,11 @@ def AA_score(A1, A2):
 
 def protein_score(NLS, seq):
     score = 0
+    trace = 0
     L = len(NLS)
     for i in range(L):
         score = score + AA_score(NLS[i], seq[i])
-    return score
+        trace = trace + AA_score(NLS[i], NLS[i])
+    percent_score = score/trace*100
+    return percent_score
 
-##print(AA_score('R', 'R'))
-##print(protein_score('PKKKRKV','PKKKRKV'))
